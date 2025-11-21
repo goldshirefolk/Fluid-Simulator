@@ -28,3 +28,13 @@
 #define SETTING_3_STRING "Grid cell size : "
 #define SETTING_4_STRING "Delay (inverse frame rate) : "
 #define SETTING_5_STRING "Show grid lines : "
+
+#define INNER_CIRCLE_R 0
+#define INNER_CIRCLE_G 0
+#define INNER_CIRCLE_B 0
+
+#define OUTLINE_CIRCLE_R 255
+#define OUTLINE_CIRCLE_G 255
+#define OUTLINE_CIRCLE_B 255
+
+#define CIRCLE_OUTLINE_SIZE 10

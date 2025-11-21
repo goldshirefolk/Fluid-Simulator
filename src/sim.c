@@ -456,16 +456,6 @@ void getPressureRange(float *minP, float *maxP) {
     }
 }
 
-#define INNER_CIRCLE_R 0
-#define INNER_CIRCLE_G 0
-#define INNER_CIRCLE_B 0
-
-#define OUTLINE_CIRCLE_R 255
-#define OUTLINE_CIRCLE_G 255
-#define OUTLINE_CIRCLE_B 255
-
-#define CIRCLE_OUTLINE_SIZE 10
-
 // Render the grid
 void render_grid(SDL_Renderer *renderer) {
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
@@ -592,12 +582,6 @@ void print_settings() {
 void settings_start() {
 
     print_settings();
-
-    // printf("Window height : %d\n", DEF_WINDOW_H);
-    // printf("Window width : %d\n", DEF_WINDOW_W);
-    // printf("Grid cell size : %d\n", glb_cellSize);
-    // printf("Delay (inverse frame rate) : %d\n", DEF_GLOBAL_DELAY);
-
     printf("\nWould you like to change these settings? [Y/N]\n");
 
     char *answer = malloc(100);
